@@ -10,11 +10,32 @@ A Primer for commonly used Linux commands.
 
 In Linux, files and directories are organized in a hierarchical structure known as the filesystem. The top-level directory is called the root directory, denoted by a forward slash (`/`). All other files and directories are contained within this root directory. Directories can contain files as well as other directories (subdirectories). Each file and directory has associated metadata, including permissions, ownership, and timestamps.
 
+### File Command
+
 The `file` command is used to determine the type of a file. It examines the file's content and provides information about its format. For example:
 - `file myfile.txt`: This command will output something like "ASCII text" if `myfile.txt` is a plain text file.
 - `file image.png`: This command will output something like "PNG image data" if `image.png` is a PNG image file.    
 - `file script.sh`: This command will output something like "Bourne-Again shell script" if `script.sh` is a shell script.
 - `file binary.exe`: This command will output something like "ELF 64-bit LSB executable" if `binary.exe` is a compiled executable file.
+
+### Stat Command
+
+The `stat` command is used to display detailed information about a file or directory, including its size, permissions, ownership, and timestamps. For example:
+- `stat myfile.txt`: This command will display information such as file size, access permissions, owner, group, and timestamps for `myfile.txt`.
+- `stat /home/user`: This command will display similar information for the `/home/user` directory.
+
+Example:
+```bash
+$ stat foo.txt
+  File: foo.txt
+  Size: 0               Blocks: 0          IO Block: 4096   regular empty file
+Device: 43h/67d Inode: 33495522229276840  Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/    pete)   Gid: ( 1000/    pete)
+Access: 2025-11-19 16:22:09.251326900 +0900
+Modify: 2025-11-19 16:22:09.251326900 +0900
+Change: 2025-11-19 16:22:09.251326900 +0900
+ Birth: -
+```
 
 ## Basic Commands
 
