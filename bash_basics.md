@@ -5,6 +5,7 @@ An introduction to Bash scripting and command line usage.
 ## Topics Covered
 
 - The Pipe `|` Operator
+- The `grep` Command
 - Input and Output Redirection (`>`, `>>`, `<`)
 - Variables and Environment Variables
 - Conditional Statements (`if`, `then`, `else`, `elif`)
@@ -34,5 +35,19 @@ $ ls -altr | tail -5
 drwxrwxrwx 1 pete pete 4096 Nov 19 16:22 .
 ```
 
-More to come soon
+## Grep Command
+
+The `grep` command is used to search for specific patterns within files or input streams. It stands for "global regular expression print." You can use `grep` to filter output based on matching text.
+
+Example: To search for the word "error" in a log file, you can use the following command:
+
+```bash
+grep "error" /var/log/syslog
+```
+
+This command will display all lines in the `/var/log/syslog` file that contain the word "error".
+
+
+
+### More to come soon
 
