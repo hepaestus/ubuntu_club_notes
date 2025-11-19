@@ -58,6 +58,21 @@ The `file` command is used to determine the type of a file. It examines the file
 - `ps -afew`: Displays a detailed list of all running processes.
 - `kill [PID]`: Terminates a process with the specified Process ID (PID).
 
+## LS Commands
+
+- `lscpu` : Displays detailed information about the CPU architecture.
+- `lsblk` : Lists information about all available or the specified block devices.
+- `lsusb` : Lists all USB devices connected to the system.
+
+
+## SUDO Command
+
+The `sudo` command stands for "superuser do" and allows a permitted user to execute a command as the superuser or another user, as specified by the security policy. It is commonly used to perform administrative tasks that require elevated privileges.
+
+- `sudo [command]`: Executes a command with superuser (root) privileges. You may be prompted to enter your password.
+- `sudo lshw`: Displays detailed information about the hardware configuration of the system.
+- `sudo fdisk -l`: Lists all disk partitions and their details (requires superuser privileges).
+
 ## Networking
 
 - `ping [hostname or IP]`: Sends ICMP echo requests to test network connectivity.
@@ -97,4 +112,11 @@ File ownership can be changed using the `chown` command. You can specify the new
 - `chown user:group file.txt`: Changes the owner to `user` and the group to `group`.
 - `chown user file.txt`: Changes only the owner to `user`, keeping the group unchanged.
 
+## Becoming the Root User
 
+To perform administrative tasks that require elevated privileges, you can switch to the root user using the `su` command or execute commands with `sudo`.
+
+- `sudo su -`: Switches to the root user account. You will be prompted to enter the root password.
+- `exit`: Exits the root user session and returns to the previous user.
+
+## More to come soon
