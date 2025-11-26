@@ -16,7 +16,7 @@ Remember the most important key in vim is **ESC** key to exit from any mode to n
 - **Visual Mode**: Used for selecting text. Press `v` to enter Visual mode from Normal mode.
 - **Command-Line Mode**: Used for executing commands. Press `:` to enter Command-Line mode from Normal mode.
 
-## Basic Commands
+## Basic Command-Line Mode Commands
 
 - `i`: Enter Insert mode before the cursor.
 - `a`: Enter Insert mode after the cursor.
