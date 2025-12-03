@@ -6,7 +6,7 @@ Nomenclatural note: **Vi** is often the same as Vim. Vi is a text editor found o
 
 Vi/Vim is a powerful text editor that is widely used for programming and general text editing. Below are some basic commands and tips to help you get started with Vim. 
 
-It is **important** to learn  because by default `vi` is sometimes the **only file editor** available by default on some Linux systems. 
+It is **important** to learn  because `vi` is sometimes the **only file editor** available by default on some Linux systems. 
 
 ## Before we start
 
