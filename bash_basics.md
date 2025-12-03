@@ -48,9 +48,15 @@ Example: To search for the word "error" in a log file, you can use the following
 grep "error" /var/log/syslog
 ```
 
-This command will display all lines in the `/var/log/syslog` file that contain the word "error".
+This command will display all lines in the `/var/log/syslog` file that contain the word "error", the result will be case sensitive.
 
+```bash
+grep -i "Error" /var/log/syslog
+```
 
+The addition of the `-i` flag will make the search **case insensitive**.
+
+`grep` is far more powerful and useful than just this. I hope to write a whole post just on this command soon.
 
 ### More to come soon
 
