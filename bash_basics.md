@@ -4,8 +4,8 @@ An introduction to Bash scripting and command line usage.
 
 ## Topics Covered
 
-- The Pipe `|` Operator
-- The `grep` Command
+- The Pipe `|` Operator: Used to push the output of one command into the input of the next.
+- The `grep` Command: Used to filter data for a search string or regular expression.
 
 ### Coming Soon
 
@@ -31,11 +31,11 @@ The output will look something like this:
 
 ```bash
 $ ls -altr | tail -5
--rwxrwxrwx 1 pete pete    0 Nov 19 16:22 foo.txt
+-rwxrwxrwx 1 pete pete    0 Nov 19 16:21 foo.txt
 -rwxrwxrwx 1 pete pete    0 Nov 19 16:22 bar.txt
--rwxrwxrwx 1 pete pete    0 Nov 19 16:22 flim.txt
--rwxrwxrwx 1 pete pete    0 Nov 19 16:22 flam.txt
-drwxrwxrwx 1 pete pete 4096 Nov 19 16:22 .
+-rwxrwxrwx 1 pete pete    0 Nov 19 16:23 flim.txt
+-rwxrwxrwx 1 pete pete    0 Nov 19 16:24 flam.txt
+drwxrwxrwx 1 pete pete 4096 Nov 19 16:25 .
 ```
 
 ## Grep Command
