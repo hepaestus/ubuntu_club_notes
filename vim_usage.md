@@ -10,7 +10,7 @@ It is **important** to learn  because `vi` is sometimes the **only file editor**
 
 ## Before we start
 
-Remember the most important key in vim is the **ESC** or escape key to exit from any mode to normal mode. You may have never used this key before and wondered what it is for :). Now you know.
+Remember the most important key in vim is the **ESC** or escape key. Use it to exit from any other mode into normal mode, this will become more clear soon. You may have never used this key before and wondered what it is for :). Now you know.
 
 ## Starting Vim/Vi
 
