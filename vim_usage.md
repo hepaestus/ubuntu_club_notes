@@ -62,32 +62,86 @@ Open the file in vim.
 $ vim file.txt
 ```
 
+```bash
+~                                                                      
+~                                                                      
+~                                                                      
+~                                                                      
+~                                                                                
+~                                                                      
+~                                                                      
+~                                                                      
+                                                     0,0-1         All
+```
+This is a blank file in normal mode.
+
+
 If `file.txt` is empty your screen will be empty. If not you will see the files contents. 
-1. Enter **insert** mode by hitting hitting the `i` key.
-2. Now you can enter some text. Use the arrow keys to move your cursor around if necessary.
+1. Enter **insert** mode by hitting hitting the `i` key. Notice the `-- INSERT --` mode indication in the bottom of the terminal.
+2. Now you can enter some text. Use the to move your cursor around if necessary.
+
+```bash
+This is some
+text in the
+test file.
+
+~                                                                                
+~                                                                        
+~                                                                        
+~                                                                        
+-- INSERT --                                           4,1           All
+```
+
 3. Exit insert mode to **normal** mode by hitting the escape key.
 4. Enter command mode by hitting the `:` key. You will see the colon character at the bottom of the screen.
 5. Enter `w` and hit enter. You have "written" the file to disk.
-6. Now hit the escape key and enter **normal** mode again.
-7. Now exit by entering the command mode and quiting all in one go. Type `:q`.   
 
-You are done! 
+```bash
+This is some
+text in the
+test file.
+
+~                                                                        
+~                                                                        
+~                                                                        
+~                                                                        
+~                                                                        
+~                                                                        
+~                                                                        
+~                                                                        
+"test_file.txt" 4L, 38B written                        4,0-1         All
+```
+
+6. Now hit the escape key and enter **normal** mode again.
+7. Now exit by entering the command mode and quiting all in one go. Type `:q` and then hit enter.   
+
+```bash
+This is some
+text in the
+test file.
+
+~                                                                        
+~                                                                        
+~                                                                        
+~                                                                        
+~                                                                        
+~                                                                        
+~                                                                        
+~                                                                        
+:q
+```
+
+You should be back at the command line of the terminal again. You are done! You edited and inserted into a file in vim! Well Done.
 
 ## Just a scratch on the surface
 
 This is the most basic of vi/vim's capabilities.
 
-For eample,with Vi/Vim:
+For example, with Vi/Vim:
 * You can search for text in files using strings or [regular expressions](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_04_01.html).
 * You can Search and Replace all of the matching strings or expressions.
 * You can record custom macros.
 * You can re-run the previous command by using the `.` command in the **normal** mode.
 
 Vi/Vim is as powerfull as just about any text editor available and it runs in any linux terminal.
-
-
-
-
-
-
 
