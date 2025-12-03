@@ -101,7 +101,7 @@ This is a blank file in normal mode. Those numbers are the Line and Character nu
 If `file.txt` is empty your screen will be empty. If not you will see the files contents. 
 
 1. Enter **insert** mode by hitting hitting the `i` key. Notice the `-- INSERT --` mode indication in the bottom of the terminal.
-2. Now you can enter some text. Use the to move your cursor around if necessary. Delete and Backspace function as you would expect.
+2. Now you can enter some text. Use the arrow keys or `h,j,k,l` to move your cursor around if necessary. Delete and Backspace function as you would expect.
 
 ```bash
 This is some
