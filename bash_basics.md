@@ -6,6 +6,9 @@ An introduction to Bash scripting and command line usage.
 
 - The Pipe `|` Operator
 - The `grep` Command
+
+### Coming Soon
+
 - Input and Output Redirection (`>`, `>>`, `<`)
 - Variables and Environment Variables
 - Conditional Statements (`if`, `then`, `else`, `elif`)
