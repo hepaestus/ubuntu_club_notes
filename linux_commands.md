@@ -6,11 +6,11 @@ A Primer for commonly used Linux commands.
 - `info [command]`: Some Distro favor this command over `man`. Displays detailed information about a command, including its options and usage.
 - `[command] --help`: Displays a brief help message for a command, including its options.
 
-## File and Directories
+## Files and Directories
 
 In Linux, files and directories are organized in a hierarchical structure known as the filesystem. The top-level directory is called the root directory, denoted by a forward slash (`/`). All other files and directories are contained within this root directory. Directories can contain files as well as other directories (subdirectories). Each file and directory has associated metadata, including permissions, ownership, and timestamps.
 
-### File Command
+### `file` Command
 
 The `file` command is used to determine the type of a file. It examines the file's content and provides information about its format. For example:
 - `file myfile.txt`: This command will output something like "ASCII text" if `myfile.txt` is a plain text file.
