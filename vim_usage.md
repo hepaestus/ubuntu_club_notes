@@ -19,7 +19,7 @@ Remember the most important key in vim is the **ESC** or escape key. Use it to e
 
 ## The Arrow Keys
 
-On some early computer systems keyboards did not have arrow keys! On these keyboards you use the `h`, `j`, `k`, and `l` keys for moving the cursor around the screen. Modern keyboards almost always have arrow keys but you can still use the `hjkl` keys to move the cursor without moving your fingers off the home keys. Once you learn to open files you can try out these keys for yourself, it can be very nice not to move your hands of the home keys, once you get used to it.
+On some early computer systems keyboards did not have arrow keys! On these keyboards you use the `h`, `j`, `k`, and `l` keys for moving the cursor around the screen. Modern keyboards almost always have arrow keys but you can still use the `hjkl` keys to move the cursor without moving your fingers off the home keys. Once you learn to open files you can try out these keys for yourself, it can be very nice not to move your hands off the home keys, once you get used to it.
 
 ## Basic Modes
 
