@@ -75,7 +75,7 @@ When you start pidgin you will see the Add a network dialog window:
 
 Click the **Add** button.
 
-![Add Account Basic](/images/pidgin_add_account_basics.png)
+![Add Account Basic](/images/pidgin_add_account_basics_02.png)
 
 In the basic tab: Set the Protocol to **irc**. Enter your preferred **username**, this how you will be seen by all other users. Then, set your preferred server.
 
