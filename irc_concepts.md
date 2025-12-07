@@ -213,11 +213,11 @@ You can used the "Room List" button, or the `/list` command in the chat window, 
 
 #### Always Joining the Club Channel
 
-To always join the **#aiu_ubuntu_club** channel in the "Pidgin Buddies" window, right click in on the club channel name, and select the "Auto Join" option.
+To always join the **#aiu_ubuntu_club** channel. In the "Pidgin Buddies" window, right click in on the club channel name, and select the "Auto Join" option.
 
 ### Conclusion
 
-At this point you should be in the club channel. You should have a registered an irc **nickname** on the Libre Chat server, have a with a good password. And you should be able able to auto join the club channel.
+At this point you should be in the club channel. You should have a registered irc **nickname** on the Libre Chat server, a good complex password for your account. And you should be able able to auto join the club channel.
 
 I hope this was helpful and informative.
 
