@@ -1,6 +1,6 @@
 # IRC 
 
-The godfather of all internet communications is IRC, or "Internet Relay Chat". IMO all the other internet protocols are basically dressed up versions of IRC. On Irc you can create private or public "rooms" where you can send instant messages to other members of the "room". You can also have direct connections between clients for singular private conversations that are ephemeral.
+The godfather of all internet communications is IRC, or "Internet Relay Chat". In my opinion, all the other internet protocols are basically dressed up versions of irc. On irc you can create private or public "rooms" where you can send instant messages to other members of the "room". You can also have direct connections between clients for singular private conversations that are ephemeral.
 
 In Irc lingo these "rooms" are called **channels**.
 
@@ -24,7 +24,7 @@ If you want you could just read those pages and skip to the the [Pidgin Installa
 
 ## Irc Clients
 
-There are myriad IRC clients in the open source world. For the purposes of this tutorial We will be discussing [Pidgin](https://pidgin.im/). 
+There are myriad irc clients in the open source world. For the purposes of this tutorial We will be discussing [Pidgin](https://pidgin.im/). 
 
 * Pidgin Website: https://pidgin.im/
 
