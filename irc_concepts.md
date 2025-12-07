@@ -10,7 +10,7 @@ In Irc lingo these "rooms" are called **channels**.
 
 We will use the public irc server called [Libera Chat](https://libera.chat/). One issue with Libera Chat that I noticed is that you immediately cannot connect form the TOR network. If you are using a regular Ubuntu/Linux installation this should not be an issue. 
 
-It you are using [Tails](https://tails.net/) Linux OS, by default it uses the TOR network, which you will have to disable first in order to *initially* connect to Libera Chat and set up an account. For more info on using TOR to connect see the [TOR Guide Entry](https://libera.chat/guides/connect#accessing-liberachat-via-tor)
+If you are using [Tails](https://tails.net/) Linux OS, by default it uses the TOR network, which you will have to disable first in order to *initially* connect to Libera Chat and set up an account. For more info on using TOR to connect see the [TOR Guide Entry](https://libera.chat/guides/connect#accessing-liberachat-via-tor)
 
 To connect to the server you need to use the server address and port number. The address you will need is `irc.libera.chat`. Irc typically runs on port number `6697`. In Japan you might get better performance using the East Asia specific server `irc.ea.libera.chat`. In Australia and New Zealand	you can try `irc.au.libera.chat`
 
@@ -28,12 +28,12 @@ There are myriad IRC clients in the open source world. For the purposes of this 
 
 * Pidgin Website: https://pidgin.im/
 
-There are even several `terminal` based irc clients if you are so inlined. Here are some examples:
+There are even several `terminal` based irc clients if you are so inclined. Here are some examples:
 
 * [glirc](https://hackage.haskell.org/package/glirc#readme)
 * [irssi](https://irssi.org/)
 
-If you want more see this list of pretty much every known ircV3 compliant clients:
+If you want more, see this list of pretty much every known ircV3 compliant client:
 
 * [https://ircv3.net/software/clients](https://ircv3.net/software/clients)
 
@@ -85,7 +85,7 @@ Click the "Save" button and the dialog will close. You will then see the empty a
 
 ![Pidgin Buddy List](/images/pidgin_buddy_list_01.png)
 
-Wait a few moments for Pidgin to connect to the irc server. A this point you may see a Connection Error" is so make sure you have followed all the steps as described above. 
+Wait a few moments for Pidgin to connect to the irc server. At this point if you see a "Connection Error", so make sure you have followed all the steps as described above. 
 
 At some point Pidgin will connect and show the "Available" status in the Buddy List.
 
@@ -99,15 +99,15 @@ In the Channel Box enter `#aiu_ubuntu_club`. Make sure include the `#` sign. All
 
 ![#aiu_ubuntu_club channel](/images/pidgin_aiu_ubuntu_club_channel_window.png)
 
-You have now joined your first irc channel. You will see your username in the right hand panel of the window. The topmost name is the name with a star icon is the name of the **channel admin**.
+You have now joined your first irc channel. You will see your username in the right hand panel of the window. The topmost name is the name of the **channel admin**.
 
-If you are the channel admin you might be in the wrong chat room. Check your channel name spelling. If you see my name, *hepaestus*, as an admin you are in the correct channel. I have entered some irc commands to make the club a more permanent non-ephemeral channel. 
+If you are the channel admin you might be in the wrong chat room. Check your channel name spelling. If you see my name, *hepaestus*, as an admin you are in the correct channel. I have entered some irc commands to make the club channel a more permanent non-ephemeral channel. 
 
 On irc anyone can create a channel, you will be the owner of the channel **while you remain connected** and as long as no one else has started a channel with the same name. If you want to have a *more* permanent username and password, or a *more* permanent channel you need to use some magic irc commands. Which I will discuss [momentarily](#irc-commands).
 
-You are now connected to the irc server and have entered a chat channel. You can not begin chatting with other users. Try saying hello and interacting with your fellow irc channel members.
+You are now connected to the irc server and have entered a chat channel. You can now begin chatting with other users. Try saying "hello" and interacting with your fellow irc channel members.
 
-You **could** stop here and be done. If you do your entire presence on irc will be ephemeral. No usernames will be saved, you don't need a password to connect. You do not yet *own* your username and anyone can use *your* name after you disconnect. Your channels that you create will also be ephemeral and open to the irc public at large.
+You've come a long way, you **could** stop here and be done. If you do your entire presence on irc will be ephemeral. No usernames will be saved, you don't need a password to connect. You do not yet *own* your username and anyone can use *your* username after you disconnect. Any channels that you create will also be ephemeral and open to the irc public at large.
 
 ### Irc Commands
 
@@ -126,7 +126,7 @@ To create a less ephemeral irc presence you will first need to register your nic
 In ANY chat window enter a command similar to this one below.
 
 ```irc
-/msg NickServ REGISTER YourPassword youremail@example.com
+/msg NickServ REGISTER YourComplexStrongPassword youremail@example.com
 ```
 
 ##### Sidebar: Password Generation Help
@@ -203,13 +203,13 @@ To join a channel you can click the "Buddies" menu in the Pidgin window, select 
 
 You can used the "Room List" button, or the `/list` command in the chat window, to see the publicly available channel rooms on the server. There will be MANY of them and it can be overwhelming.
 
-#### Always Joining the CLub Channel
+#### Always Joining the Club Channel
 
 To always join the **#aiu_ubuntu_club** channel in the "Pidgin Buddies" window, right click in on the club channel name, and select the "Auto Join" option.
 
 ### Conclusion
 
-At this point you should in the our club channel. You should have a registered Irc **nickname** on the Libre Chat server, with a good password. And you should be able able to auto join the club channel.
+At this point you should be in the club channel. You should have a registered an irc **nickname** on the Libre Chat server, have a with a good password. And you should be able able to auto join the club channel.
 
 I hope this was helpful and informative.
 
