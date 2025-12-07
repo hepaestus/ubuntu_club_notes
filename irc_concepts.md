@@ -159,7 +159,7 @@ Now that you have generated a few decent passwords choose one to use with the ir
 
 Your *direct message* to the *NickServe* irc account will open a new tab and window in Pidgin.
 
-![NickServe Direct Message Window](/images/pidgin_NickServe_registration_window.png)
+![NickServe Direct Message Window](/images/pidgin_nickserve_registration_window.png)
 
 You should soon receive an email to the address you used to register. In that email will be a command you must cut and paste into the **NickServe** chat window. Or a link you can click in the browser. Check your Spam folder if necessary to find the email.
 
@@ -173,7 +173,19 @@ NickServe will message you back with a message in the chat window like this:
 (03:39:41 PM) NickServ: (notice) You have been given a default user cloak.
 ```
 
-**Congratulations** you now have a more permanent username on the Libre Chat Irc Server.
+In order to make sure nobody else uses your nickname, next enter the irc command as follows:
+
+```irc
+/msg NickServ SET ENFORCE ON
+```
+
+You will see the following response:
+
+```irc
+(05:39:22 PM) NickServ: (notice) The ENFORCE flag has been set for account hepaestus.
+```
+
+**Congratulations** you now have a more permanent username on the Libre Chat Irc Server. And only you should be able to ues that nickname.
 
 You can now enter your password into the Pidgin connection dialog so that you can connect to your account every time you run Pidgin.
 
