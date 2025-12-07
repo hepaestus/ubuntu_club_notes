@@ -1,12 +1,16 @@
 # IRC 
 
-The godfather of all internet communications is IRC, or "Internet Relay Chat". IMO all the other internet protocols are basically dressed up versions of IRC. On Irc you can create private or public "rooms" where you can send instant messages to other members of the "room". You can also have direct connections between clients for singluar private conversations that. 
+The godfather of all internet communications is IRC, or "Internet Relay Chat". IMO all the other internet protocols are basically dressed up versions of IRC. On Irc you can create private or public "rooms" where you can send instant messages to other members of the "room". You can also have direct connections between clients for singular private conversations that are ephemeral.
 
 In Irc lingo these "rooms" are called **channels**.
 
+*Caution*: Irc has *a lot* of communities and some are "unseemly" if not illegal in some areas. Be cautious and know that venturing into the deep dark recesses of the internet can be dangerous and maybe scary. Stay in the channels you feel comfortable in and do not interact with strangers who make you feel unsafe. Irc allows you to block users from contacting you and also other safety features. 
+
 ## Irc Network / Server
 
-We will use the public irc server called [Libera Chat](https://libera.chat/). One issue with Libera Chat that I noticed is that you cannot connect form the TOR network. If you are using a regular Ubuntu/Linux installation this should not be an issue. It you are using Tails Linux, by default it uses the TOR network, which you will have to disable first in order to *initially* connect to Libera Chat and set up an account. Fore more info on using TOR to connect see the [TOR Guide Entry](https://libera.chat/guides/connect#accessing-liberachat-via-tor)
+We will use the public irc server called [Libera Chat](https://libera.chat/). One issue with Libera Chat that I noticed is that you immediately cannot connect form the TOR network. If you are using a regular Ubuntu/Linux installation this should not be an issue. 
+
+It you are using [Tails](https://tails.net/) Linux OS, by default it uses the TOR network, which you will have to disable first in order to *initially* connect to Libera Chat and set up an account. For more info on using TOR to connect see the [TOR Guide Entry](https://libera.chat/guides/connect#accessing-liberachat-via-tor)
 
 To connect to the server you need to use the server address and port number. The address you will need is `irc.libera.chat`. Irc typically runs on port number `6697`. In Japan you might get better performance using the East Asia specific server `irc.ea.libera.chat`. In Australia and New Zealand	you can try `irc.au.libera.chat`
 
@@ -16,7 +20,7 @@ For more information on Libera Chat, see these very helpful webpages:
 * https://libera.chat/guides/basics
 * https://libera.chat/guides/faq
 
-You want you could just read those pages and skip to the the [Pidgin Installation](#the-pidgin-irc-client) section here but I will summarize some of the more salient points. :)
+If you want you could just read those pages and skip to the the [Pidgin Installation](#the-pidgin-irc-client) section here but I will summarize some of the more salient points. :)
 
 ## Irc Clients
 
@@ -24,7 +28,7 @@ There are myriad IRC clients in the open source world. For the purposes of this 
 
 * Pidgin Website: https://pidgin.im/
 
-There are even several terminal based irc clients if you are so enclined. Here are some examples:
+There are even several `terminal` based irc clients if you are so inlined. Here are some examples:
 
 * [glirc](https://hackage.haskell.org/package/glirc#readme)
 * [irssi](https://irssi.org/)
@@ -34,7 +38,7 @@ If you want more see this list of pretty much every known ircV3 compliant client
 * [https://ircv3.net/software/clients](https://ircv3.net/software/clients)
 
 
-### The Pidgin Messageing Client
+### The Pidgin Messaging Client
 
 Pidgin is a messaging client that can connect to many different messaging protocols. This document is focused on the irc protocol and thus we will set up Pidgin for irc usage.
 
@@ -42,20 +46,20 @@ Pidgin is a messaging client that can connect to many different messaging protoc
 
 This is probably the easiest install despite it using the command line.
 
-Open a terminal/console window and at the command line type to 2 following commands. You will be prompted to enter your password to authhorize the installation.
+Open a terminal/console window and at the command line type to 2 following commands. You will be prompted to enter your password to authorize the installation.
 
 ```bash
 sudo apt update
 sudo apt install pidgin -y
 ```
 
-After you enter your password and hit enter, you will see some output and eventually it will stop. At this point Pidgin should be installed and you should see it in your programs menu. 
+After you enter your password and hit enter, you will see some terminal output and eventually it will stop. At this point Pidgin should be installed and you should see it in your programs menu. You can close the terminal or just ignore if for now.
 
 #### Ubuntu Gui Installation:
 
-In the Ubuntu Software installation client if you search for "Pidgin" you will likely find two options. They seem like they are slightly different. From what I can tell you want the **Pidgin "Instant Messaging Client"** rather than the *Pidgin Internet Messenger*. After you select the appropriate program and click install, you will be prompted for your password and the program will be installed. It should now be visible in your program menu.
+In the Ubuntu Software installation client if you search for "Pidgin" you will likely find two options. They seem like they are slightly different. From what I can tell you want the **Pidgin "Instant Messaging Client"** rather than the *Pidgin Internet Messenger*. After you select the appropriate program and click install, you will be prompted for your password and the program will be installed. It should now be visible in your Ubuntu programs menu.
 
-#### Pidgin Set Up
+### Pidgin Set Up
 
 When you start pidgin you will see the Add a network dialog window:
 
@@ -65,7 +69,13 @@ Click the **Add** button.
 
 ![Add Account Basic](/images/pidgin_add_account_basics.png)
 
-In the basic tab: Set the Protocol to **irc**. Enter your preferred **username**, this will be seen by all other users. And then set your preferred server. The **Local Ident** is what your own username name will look like to yourself in the channel window. No Password is entered at this time. You may leave the Local Alias option blank as well. 
+In the basic tab: Set the Protocol to **irc**. Enter your preferred **username**, this how you will be seen by all other users. Then, set your preferred server.
+
+- `irc.libera.chat` - Generally Server
+- `irc.ea.libera.chat` - East Asia Server
+- `irc.au.libera.chat` - Australia/New Zealand Server
+
+ The **Local Ident** is what your own username name will look like to *yourself* in the channel window. Note: no Password is entered at this time. You may leave the Local Alias option blank as well. 
 
 ![Add Account Advanced](/images/pidgin_add_account_advanced.png)
 
@@ -83,25 +93,25 @@ At some point Pidgin will connect and show the "Available" status in the Buddy L
 
 Congratulations!! You are now connected to the irc server. You can now click the "Buddies" Menu item and Select "Join A Chat" from the menu.
 
-You will no see the "Join a Chat" dialog screen.
-
 ![Join a Chat Dialog](/images/pidgin_join_a_chat_dialog.png)
 
-In the Channel Box enter "#aiu_ubuntu_club". Make sure include the `#` sign. All irc channel names start with a `#` sign. 
+In the Channel Box enter `#aiu_ubuntu_club`. Make sure include the `#` sign. All irc channel names start with a `#` sign. 
 
 ![#aiu_ubuntu_club channel](/images/pidgin_aiu_ubuntu_club_channel_window.png)
 
-You have now joined your first irc channel. You will see your username in the right hand panel of the window. The topmost name is the name of the **channel admin**. If you are the channel admin you might be in the wrong chat room. Check your channel name spelling. If you see my name *hepaestus* as an admin you are in the correct channel. I have entered some irc command to make create a more permanent non-ephemeral channel. 
+You have now joined your first irc channel. You will see your username in the right hand panel of the window. The topmost name is the name with a star icon is the name of the **channel admin**.
+
+If you are the channel admin you might be in the wrong chat room. Check your channel name spelling. If you see my name, *hepaestus*, as an admin you are in the correct channel. I have entered some irc commands to make the club a more permanent non-ephemeral channel. 
 
 On irc anyone can create a channel, you will be the owner of the channel **while you remain connected** and as long as no one else has started a channel with the same name. If you want to have a *more* permanent username and password, or a *more* permanent channel you need to use some magic irc commands. Which I will discuss [momentarily](#irc-commands).
 
 You are now connected to the irc server and have entered a chat channel. You can not begin chatting with other users. Try saying hello and interacting with your fellow irc channel members.
 
-You **could** stop here and be done. If you do your entire presence on irc will be ephemeral. No usernames will be saved, you don't need a password to connect. You do not *own* your username any one can use *your* name after you disconnect. Your channels that you create will also be ephemeral and open to the irc public at large.
+You **could** stop here and be done. If you do your entire presence on irc will be ephemeral. No usernames will be saved, you don't need a password to connect. You do not yet *own* your username and anyone can use *your* name after you disconnect. Your channels that you create will also be ephemeral and open to the irc public at large.
 
 ### Irc Commands
 
-In order to setup your account on the irc server you will have to enter a few commands directed to the server itself. You do this in the channel chat window itself by directing your chats to the server controller called **NickServe**.
+In order to setup your own username and account on the irc server you will have to enter a few commands directed to the server itself. You do this in the channel chat window itself by directing your chats to the server controller/user called **NickServe**.
 
 #### Irc User Registration
 
@@ -113,15 +123,19 @@ I will continue to summarize and hopefully simplify this here.
 
 To create a less ephemeral irc presence you will first need to register your nickname.
 
-In ANY chat window enter the following command.
+In ANY chat window enter a command similar to this one below.
 
 ```irc
 /msg NickServ REGISTER YourPassword youremail@example.com
 ```
 
-If you need help coming up with a good complex password Linux has a command for you called the `apg` command.
+##### Sidebar: Password Generation Help
 
-Here is an example of the command in use, I *do not* suggest using one of these generated passwords this is just for clarity... :). This command below uses the `-m 30` flag to generate a password of 30 characters. You will want to save this password in your password manager if you use one, or else make not of it somewhere obviously. You will need it again soon.
+If you ever need help coming up with a good complex password Linux has a terminal command for you called the `apg` command.
+
+Here is an example of the command in use, Note: I *do not* suggest using one of these generated passwords this is just for clarity... 😀. The ` apg` command below uses the `-m 30` flag to generate a password of with a minimum of 30 characters. You will want to save this password in your password manager if you use one, or else make not of it somewhere obviously. You will need it again soon.
+
+Example command and it`s output:
 
 ```bash  
 $ apg -m 30
@@ -133,7 +147,13 @@ stentaytDyriFinWitwughityidEv2
 UjReynLongEchdoukCeictyabotout
 ```
 
+##### Back to the nickname registration
+
 Now that you have generated a few decent passwords choose one to use with the irc command from above and enter it into the channel window. It should look like this (obviously this is not my real password 😉):
+
+```irc
+/msg NickServ REGISTER YourSecureComplexPassword emailaddress@domain.tld
+```
 
 ![NickServe Register command](/images/pidgin_aiu_ubuntu_club_channel_nickname_registration.png)
 
@@ -141,11 +161,11 @@ Your *direct message* to the *NickServe* irc account will open a new tab and win
 
 ![NickServe Direct Message Window](/images/pidgin_NickServe_registration_window.png)
 
-You should soon receive an email to the address you used to register. In that email will be a command you must cut and paste into the **NickServe** chat window.
+You should soon receive an email to the address you used to register. In that email will be a command you must cut and paste into the **NickServe** chat window. Or a link you can click in the browser. Check your Spam folder if necessary to find the email.
 
 ![NickServe Direct Message Window](/images/pidgin_aiu_ubuntu_club_channel_nickname_registration_verification.png)
 
-NickServe will message you back with a message like this:
+NickServe will message you back with a message in the chat window like this:
 
 ```irc
 (03:39:41 PM) NickServ: (notice) hepaestus has now been verified.
@@ -157,9 +177,33 @@ NickServe will message you back with a message like this:
 
 You can now enter your password into the Pidgin connection dialog so that you can connect to your account every time you run Pidgin.
 
-In the Pidgin Buddy List window, Click the "Accounts" Menu, Click on the only entry you should have available for the Libre irc server and save your password there. Also select the "Remember Password" checkbox for your convenience later when connecting.
+In the Pidgin Buddy List window, Click the "Accounts" Menu, Click on the only entry you should have available for the Libre Irc server and save your password there. Also select the "Remember Password" checkbox for your convenience later when connecting.
 
 ![Save Your Password In Pidgin](/images/pidgin_add_account_basics_with_password_saved.png)
 
 You can now disconnect from irc and reconnect to test your password and username registration.
+
+#### Connecting To A Channel
+
+To join a channel you can click the "Buddies" menu in the Pidgin window, select "Joins a Chat" and enter the club channel name: `#aiu_ubuntu_club`.
+
+#### What other Channels are there?
+
+You can used the "Room List" button, or the `/list` command in the chat window, to see the publicly available channel rooms on the server. There will be MANY of them and it can be overwhelming.
+
+#### Always Joining the CLub Channel
+
+To always join the **#aiu_ubuntu_club** channel in the "Pidgin Buddies" window, right click in on the club channel name, and select the "Auto Join" option.
+
+### Conclusion
+
+At this point you should in the our club channel. You should have a registered Irc **nickname** on the Libre Chat server, with a good password. And you should be able able to auto join the club channel.
+
+I hope this was helpful and informative.
+
+Happy Chatting, hope to see you in the channel soon.
+
+P.
+
+
 
