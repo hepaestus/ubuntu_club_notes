@@ -120,11 +120,11 @@ You've come a long way, you **could** stop here and be done. If you do your enti
 
 ### Irc Commands
 
-In order to setup your own username and account on the irc server you will have to enter a few commands directed to the server itself. You do this in the channel chat window itself by directing your chats to the server controller/user called **NickServe**.
+In order to setup your own username and account on the irc server you will have to enter a few commands directed to the server itself. You do this in the channel chat window itself by directing your chats to the server controller/user called **NickServ**.
 
 #### Irc User Registration
 
-For a complete description of this topic you can see the [Libre Chat Nickname Registration Guide](https://libera.chat/guides/registration). 
+For a complete description of this topic you can see the [Libera Chat Nickname Registration Guide](https://libera.chat/guides/registration). 
 
 I will continue to summarize and hopefully simplify this here.
 
@@ -164,17 +164,17 @@ Now that you have generated a few decent passwords choose one to use with the ir
 /msg NickServ REGISTER YourSecureComplexPassword emailaddress@domain.tld
 ```
 
-![NickServe Register command](/images/pidgin_aiu_ubuntu_club_channel_nickname_registration.png)
+![NickServ Register command](/images/pidgin_aiu_ubuntu_club_channel_nickname_registration.png)
 
-Your *direct message* to the *NickServe* irc account will open a new tab and window in Pidgin.
+Your *direct message* to the *NickServ* irc account will open a new tab and window in Pidgin.
 
-![NickServe Direct Message Window](/images/pidgin_nickserve_registration_window.png)
+![NickServ Direct Message Window](/images/pidgin_nickserve_registration_window.png)
 
 You should soon receive an email to the address you used to register. In that email will be a command you must cut and paste into the **NickServe** chat window. Or a link you can click in the browser. Check your Spam folder if necessary to find the email.
 
-![NickServe Direct Message Window](/images/pidgin_aiu_ubuntu_club_channel_nickname_registration_verification.png)
+![NickServ Direct Message Window](/images/pidgin_aiu_ubuntu_club_channel_nickname_registration_verification.png)
 
-NickServe will message you back with a message in the chat window like this:
+NickServ will message you back with a message in the chat window like this:
 
 ```irc
 (03:39:41 PM) NickServ: (notice) hepaestus has now been verified.
