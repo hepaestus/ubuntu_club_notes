@@ -78,6 +78,8 @@ Click the **Add** button.
 
 ![Add Account Basic](/images/pidgin_add_account_basics_02.png)
 
+(Note there is a typo in the image it should be "libera" not "libre" sorry.)
+
 In the basic tab: Set the Protocol to **irc**. Enter your preferred **username**, this how you will be seen by all other users. Then, set your preferred server.
 
 - `irc.libera.chat` - Generally Server
@@ -170,7 +172,7 @@ Your *direct message* to the *NickServ* irc account will open a new tab and wind
 
 ![NickServ Direct Message Window](/images/pidgin_nickserve_registration_window.png)
 
-You should soon receive an email to the address you used to register. In that email will be a command you must cut and paste into the **NickServe** chat window. Or a link you can click in the browser. Check your Spam folder if necessary to find the email.
+You should soon receive an email to the address you used to register. In that email will be a command you must cut and paste into the **NickServ** chat window. Or a link you can click in the browser. Check your Spam folder if necessary to find the email.
 
 ![NickServ Direct Message Window](/images/pidgin_aiu_ubuntu_club_channel_nickname_registration_verification.png)
 
@@ -194,11 +196,11 @@ You will see the following response:
 (05:39:22 PM) NickServ: (notice) The ENFORCE flag has been set for account hepaestus.
 ```
 
-**Congratulations** you now have a more permanent username on the Libre Chat Irc Server. And only you should be able to ues that nickname.
+**Congratulations** you now have a more permanent username on the Libera Chat Irc Server. And only you should be able to ues that nickname.
 
 You can now enter your password into the Pidgin connection dialog so that you can connect to your account every time you run Pidgin.
 
-In the Pidgin Buddy List window, Click the "Accounts" Menu, Click on the only entry you should have available for the Libre Irc server and save your password there. Also select the "Remember Password" checkbox for your convenience later when connecting.
+In the Pidgin Buddy List window, Click the "Accounts" Menu, Click on the only entry you should have available for the Libera Irc server and save your password there. Also select the "Remember Password" checkbox for your convenience later when connecting.
 
 ![Save Your Password In Pidgin](/images/pidgin_add_account_basics_with_password_saved.png)
 
@@ -218,7 +220,7 @@ To always join the **#aiu_ubuntu_club** channel. In the "Pidgin Buddies" window,
 
 ### Conclusion
 
-At this point you should be in the club channel. You should have a registered irc **nickname** on the Libre Chat server, a good complex password for your account. And you should be able able to auto join the club channel.
+At this point you should be in the club channel. You should have a registered irc **nickname** on the Libera Chat server, a good complex password for your account. And you should be able able to auto join the club channel.
 
 I hope this was helpful and informative.
 
