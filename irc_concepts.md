@@ -86,7 +86,7 @@ In the basic tab: Set the Protocol to **irc**. Enter your preferred **username**
 
  The **Local Ident** is what your own username name will look like to *yourself* in the channel window. Note: no Password is entered at this time. You may leave the Local Alias option blank as well. 
 
-![Add Account Advanced](/images/pidgin_add_account_advanced.png)
+![Add Account Advanced](/images/pidgin_add_account_advanced_02.png)
 
 In the advanced tab: Make sure Port is set to `6697`. For now do *not* check the "Use SSL" checkbox. Once we have set up a password on the irc server you will be able to use SSL so that your communications are encrypted. 
 
